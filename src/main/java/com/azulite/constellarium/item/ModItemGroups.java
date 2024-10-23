@@ -14,10 +14,10 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
 
     public static final ItemGroup CONSTALLARIUM_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(Constellarium.MOD_ID,"bob"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.bob"))
-                    .icon(() -> new ItemStack(ModItems.BOB)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.BOB);
+            new Identifier(Constellarium.MOD_ID,"constellarium"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.constellarium"))
+                    .icon(() -> new ItemStack(ModItems.CONSTELLARIUM)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.CONSTELLARIUM);
                     }).build());
 
     public static void registerItemGroups(){
