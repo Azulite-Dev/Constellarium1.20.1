@@ -1,3 +1,5 @@
 {
-  "item.constellarium.bob": "Bob"
+  "item.constellarium.bob": "Bob",
+
+  "itemgroup.bob": "bob group"
 }
