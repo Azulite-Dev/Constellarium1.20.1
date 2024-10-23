@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "constellarium:item/constellarium"
+    "layer0": "constellarium:item/constellarium_anim"
   }
 }
