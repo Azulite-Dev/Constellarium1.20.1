@@ -12,10 +12,10 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item CONSTELLARIUM = registerItem("constellarium", new Item(new FabricItemSettings()));
+    public static final Item BOB = registerItem("bob", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
-        entries.add(CONSTELLARIUM);
+        entries.add(BOB);
     }
 
     private static Item registerItem(String name, Item item){
