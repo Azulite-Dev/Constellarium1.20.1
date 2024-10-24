@@ -1,6 +1,7 @@
 package com.azulite.constellarium.item;
 
 import com.azulite.constellarium.Constellarium;
+import com.azulite.constellarium.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.minecraft.item.ItemGroup;
@@ -18,6 +19,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.constellarium"))
                     .icon(() -> new ItemStack(ModItems.CONSTELLARIUM)).entries((displayContext, entries) -> {
                         entries.add(ModItems.CONSTELLARIUM);
+                        entries.add(ModBlocks.CONSTELLARIUM_BLOCK);
                     }).build());
 
     public static void registerItemGroups(){

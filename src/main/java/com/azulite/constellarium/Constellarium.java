@@ -1,5 +1,6 @@
 package com.azulite.constellarium;
 
+import com.azulite.constellarium.block.ModBlocks;
 import com.azulite.constellarium.item.ModItemGroups;
 import com.azulite.constellarium.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -19,6 +20,7 @@ public class Constellarium implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.

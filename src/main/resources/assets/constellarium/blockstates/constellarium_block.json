@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "constellarium:block/constellarium_block"
+    }
+  }
+}

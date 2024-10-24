@@ -21,7 +21,6 @@ public class ModItems {
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(Constellarium.MOD_ID, name), item);
     }
-
     public static void registerModItems() {
         Constellarium.LOGGER.info("Registering Mod items for " + Constellarium.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
