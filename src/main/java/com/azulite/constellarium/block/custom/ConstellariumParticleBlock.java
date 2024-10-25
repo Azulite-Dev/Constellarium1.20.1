@@ -13,7 +13,6 @@ public class ConstellariumParticleBlock extends Block {
         super(settings);
     }
 
-
     @Override
     public void randomDisplayTick(BlockState state, World world, BlockPos pos, Random random) {
         int i = pos.getX();
