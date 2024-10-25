@@ -3,18 +3,13 @@ package com.azulite.constellarium.block.custom;
 import net.minecraft.block.*;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.random.Random;
-import net.minecraft.util.shape.VoxelShape;
-import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
-import net.minecraft.world.WorldAccess;
-import net.minecraft.world.WorldView;
 
-public class ParticleBlock extends Block {
+public class ConstellariumParticleBlock extends Block {
 
-    public ParticleBlock(AbstractBlock.Settings settings) {
+    public ConstellariumParticleBlock(AbstractBlock.Settings settings) {
         super(settings);
     }
 
