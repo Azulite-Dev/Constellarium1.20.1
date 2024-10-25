@@ -30,3 +30,4 @@ public class ModBlocks {
         Constellarium.LOGGER.info("Registering ModBlocks for "+Constellarium.MOD_ID);
     }
 }
+    
