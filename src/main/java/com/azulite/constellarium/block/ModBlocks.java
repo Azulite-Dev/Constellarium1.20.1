@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block CONSTELLARIUM_BLOCK = registerBlock("constellarium_block",
-            new ConstellariumParticleBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
+            new ConstellariumParticleBlock(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name,block);
