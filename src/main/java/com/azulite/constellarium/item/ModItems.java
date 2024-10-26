@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item CONSTELLARIUM = registerItem("constellarium", new Item(new FabricItemSettings()));
-    public static final Item STARFALL_CAKE = registerItem("starfall_cake", new Item(new FabricItemSettings()));
+    public static final Item STARFALL_CAKE = registerItem("starfall_cake", new Item(new FabricItemSettings().food(ModFoodComponents.STARFALL_CAKE)));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(CONSTELLARIUM);
