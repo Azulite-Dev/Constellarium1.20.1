@@ -19,7 +19,9 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.constellarium"))
                     .icon(() -> new ItemStack(ModItems.CONSTELLARIUM)).entries((displayContext, entries) -> {
                         entries.add(ModItems.CONSTELLARIUM);
+                        entries.add(ModItems.STARFALL_CAKE);
                         entries.add(ModBlocks.CONSTELLARIUM_BLOCK);
+
                     }).build());
 
     public static void registerItemGroups(){
